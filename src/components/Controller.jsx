@@ -119,12 +119,12 @@ export function Controller() {
           color="primary"
           onClick={generate}
         >
-          Generate
+          Generate Random Array
         </Button>
 
         <TextField
           id="outlined-basic"
-          label="Input"
+          label="Enter the Elements of the Array"
           variant="outlined"
           onChange={(event) => arrayDataChangeHandler(event.target.value)}
           value={arrayInput}
