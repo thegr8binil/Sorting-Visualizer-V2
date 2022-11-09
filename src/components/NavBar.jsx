@@ -6,7 +6,7 @@ import Tab from "@material-ui/core/Tab";
 import { sortingAlgorithms } from "../common/config";
 import { useData } from "../common/store";
 import shallow from "zustand/shallow";
-import { AiFillGithub } from "react-icons/ai";
+import './button.css';
 
 function a11yProps(index) {
   return {
@@ -33,15 +33,20 @@ export function NavBar() {
 
   return (
     <div className={classes.root}>
-      <div
+      <div id="d1"
         style={{
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
         }}
       >
-        <h3>Algo - Visualizer (Sorting)</h3>
-       
+       <a href="https://thegr8binil.github.io/Algo-Visualizer/">
+        <h2 id="h1">Algo - Visualizer (Sorting)</h2></a>
+        <button id="b1">
+        <a href="https://thegr8binil.github.io/Algo-Visualizer/">
+          Home
+        </a>
+      </button>
       </div>
       <AppBar position="static" color="default">
         <Tabs
