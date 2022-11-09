@@ -10,7 +10,7 @@ export function InfoFooter({ swapCount, comparisionCount, children }) {
   return (
     <InfoFlex>
       <div>Swaps: <strong>{swapCount}</strong></div>
-      <div>Comparisions: <strong>{comparisionCount}</strong></div>
+      <div>Comparisons: <strong>{comparisionCount}</strong></div>
     </InfoFlex>
   );
 }
