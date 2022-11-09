@@ -53,7 +53,7 @@ export function AlgoDisplay() {
   if (sortingArray.length === 0)
     return (
       <h3 style={flexCenter}>
-        Please enter input array or use generate button
+        Please enter the elements of array or use generate button
       </h3>
     );
 
